@@ -1,0 +1,278 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto Slab", serif;
+}
+.home{
+  background-image: url("portfolio.gif");
+  background-color: red;
+  height: 60vh;
+  margin: 0 auto;
+}
+ 
+.Coder_img{
+   height: 50vh;
+   width: 40vw;
+   float: right;
+   margin-right: 5vh;
+   margin-top: 3vh;
+   
+}
+
+.getCV{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  margin-left: 5vh;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 75vw;
+  margin:5vh auto;
+  
+}
+.contact_form{
+  width: 90vw;
+  background-color: rgb(86, 78, 78);
+  height: max-content;
+  margin: 5vh auto;
+}
+ 
+#name{
+  margin-top: 5vh;
+}
+input,
+textarea {
+  width: 100%;
+  margin: 2vh auto;
+  padding: 1vh;
+}
+
+#btn {
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: rgb(19, 17, 22);
+  color: white;
+  padding: 1vh;
+  height: fit-content;
+  width: fit-content;
+  margin-top: 3vh;
+  margin-bottom: 5vh;
+}
+
+h1 {
+  margin:  3vh auto;
+  font-weight: bolder;
+}
+
+
+.skill_container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: rgb(24, 23, 23);
+  max-width: 80%;
+  margin: 0 auto;
+}
+.skill_container h1{
+  font-size: 5rem;
+  font-weight: bolder;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+.item{
+  margin: 2vh 2vh;
+}
+.item img{
+  height: 12vh;
+  width: 10vw;
+  background-color: black;
+}
+.item h4{
+  color: white;
+  font-weight: bolder;
+  font-size: larger;
+}
+ 
+ 
+
+.edu_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.Education h4 {
+  font-weight: bolder;
+}
+.bold {
+  font-weight: bolder;
+}
+.about_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image1 {
+  border: 4px solid rgb(11, 13, 13);
+  overflow: hidden;
+  border-radius: 50%;
+  width: 70%;
+}
+
+.bio {
+  height: 163px;
+  height: 70%;
+  width: 50vw;
+}
+.logo {
+  display: flex;
+  margin: 4vh auto;
+}
+.logo a img {
+  height: 50px;
+  width: 50px;
+}
+
+.certificate {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.certi_container {
+  width: 90vw;
+  background-color: rgb(214, 214, 214);
+  padding: 3vh;
+  margin: 0 auto;
+}
+.certi_container img {
+  height: 10%;
+  width: 20%;
+  border: 3px solid black;
+  margin: 1vh 3vh;
+}
+.certi_container img:hover {
+  height: 30%;
+  width: 40%;
+}
+
+.project_contain {
+  background-color: rgb(204, 199, 199);
+  height: 50vh;
+  width: 90vw;
+  margin: 2vh auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+.group {
+  height: 30vh;
+  width: 30vw;
+  background-color: rgb(34, 35, 35);
+  margin: auto 2vh;
+  color:white;
+}
+.solo {
+  height: 30vh;
+  width: 30vw;
+  background-color: rgb(33, 31, 31);
+  margin: auto 2vh;
+  color:white;
+}
+
+.mar {
+  margin-top: 5vh;
+  font-weight: bolder;
+}
+
+.btn-center {
+  height: 70%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.group_project1 {
+  background-color: rgb(144, 179, 241);
+  height: 35vh;
+  width: 90vw;
+  margin: 2vh auto;
+}
+.group_project {
+  background-color: rgb(144, 179, 241);
+  height: 30vh;
+  width: 90vw;
+  margin: 0 auto;
+}
+.heading{
+  margin-top: 5vh;
+}
+#para {
+  height: 100%;
+  width: 70%;
+  font-weight: bold;
+  margin-top: 3vh;
+  margin-left: 3vh;
+}
+.center {
+  margin: 2vh 5vh;
+}
+
+.float {
+  float: right;
+  margin-right: 4vh;
+  height: 15vh;
+  width: 15vw;
+}
+.center {
+  height: 100%;
+  width: 17%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  margin: 2vh auto;
+  flex-wrap: wrap;
+}
+
+.clr1{
+  background-color: rgb(193, 200, 218);
+}
+.clr4{
+  background-color: rgb(193, 200, 218);
+}
+.clr_group{
+background-color: rgb(235, 237, 239,0.8);
+}
+
+.back_btn{
+   margin: 2vh 3vh;
+   height: 5vh;
+   width: 10vh;
+}
+.first{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.projects{
+  margin-bottom: 7vh;
+}
+ 

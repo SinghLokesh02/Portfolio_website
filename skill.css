@@ -1,0 +1,23 @@
+#skills{
+    background-color: black;
+    max-width: 80%;
+    margin: 0 auto;
+}
+.skill_container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.skill_container h1{
+    font-size: 5rem;
+    font-weight: bolder;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+ .item img{
+    height: 10vh;
+    width: 10vw;
+    background-color: black;
+ }
