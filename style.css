@@ -124,12 +124,17 @@ h1 {
   justify-content: center;
   align-items: center;
 }
+.margin_on_short{
+  margin: 2vh;
+  /* font-weight:100; */
+}
 
 .image1 {
   border: 4px solid rgb(11, 13, 13);
   overflow: hidden;
   border-radius: 50%;
   width: 70%;
+  margin-left: 5vh;
 }
 
 .bio {

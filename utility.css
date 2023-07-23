@@ -1,4 +1,4 @@
-@media screen and (max-width: 656px) {
+@media screen and (max-width: 520px) {
     #about_container {
        display: flex;
        flex-direction: column;
@@ -10,6 +10,22 @@
     .margin_on_short{
         margin: 1vh;
         /* font-weight:100; */
+         font-size: medium;
+       
+    }
+    .image{
+        margin-bottom: 10vh;
+        margin-right: 5vh;
+         
+    }
+    .image1{
+        height: 20vh;
+        width: 100vw;
+        margin-left: 5vh;
+    }
+    .logo a img{
+        height: 30px;
+        width: 30px;
     }
   }
 
