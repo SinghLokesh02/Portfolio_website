@@ -25,6 +25,7 @@
     />
     <link rel="stylesheet" href="footer.css" />
     <title>My portfolio</title>
+    <script src="srcipt.js" defer></script>
     <style>
        
       .nav-link{
@@ -32,12 +33,34 @@
         font-size: large;
         margin: 0 1vh;
         color: white;
-        
       }
-
+      .container-fluid{
+        padding: 0;
+      }
+      
+      /* Style for Preloader of the website */
+.preloader{
+    height: 100vh;
+    width: 100%;
+    background-color: #fff;
+    background-image: url("img/pre.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 35%;
+    display: block;
+}
+ 
     </style>
   </head>
   <body>
+
+    <!-- Preloader for the website -->
+    <div class="preloader"></div>
+   
+    
+    <div class="container-fluid gif-effect">
+    <div class="container-fluid position-fixed">
+     
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <!-- <a class="navbar-brand" href="index.html">Portfolio</a> -->
       <button
@@ -83,7 +106,7 @@
         </ul>
       </div>
     </nav>
-
+  </div>
     <!-- Home Section -->
     <section id="home">
       <div class="home">
@@ -381,6 +404,7 @@
         </div>
       </div>
     </footer>
+  </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -399,6 +423,7 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+
   </body>
   <script src="srcipt.js"></script>
 </html>

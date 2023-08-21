@@ -50,3 +50,17 @@ typewriter1();
 
 var get_nav = document.getElementsByClassName(".navbar-nav")
 console.log(get_nav);
+
+// Putting all display none until the site preloader is working
+var get_all = document.getElementsByClassName("gif-effect")[0]
+get_all.style.display = "none";
+
+
+// preloader for the website
+var preloader = document.getElementsByClassName("preloader")[0];
+function myFunction() {
+  preloader.style.display = "none";
+  get_all.style.display = "block"
+}
+
+setInterval(myFunction, 3000);
