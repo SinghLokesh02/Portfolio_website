@@ -5,26 +5,25 @@
   font-family: "Poppins", sans-serif;
   font-family: "Roboto Slab", serif;
 }
-#red{
+#red {
   color: red;
 }
-.home{
+.home {
   background-image: url("portfolio.gif");
   background-color: red;
   height: 60vh;
   margin: 0 auto;
 }
- 
-.Coder_img{
-   height: 50vh;
-   width: 40vw;
-   float: right;
-   margin-right: 5vh;
-   margin-top: 3vh;
-   
+
+.Coder_img {
+  height: 50vh;
+  width: 40vw;
+  float: right;
+  margin-right: 5vh;
+  margin-top: 3vh;
 }
 
-.getCV{
+.getCV {
   height: 100%;
   width: 100%;
   display: flex;
@@ -40,17 +39,16 @@ form {
   justify-content: center;
   align-items: center;
   width: 75vw;
-  margin:5vh auto;
-  
+  margin: 5vh auto;
 }
-.contact_form{
+.contact_form {
   background-color: rgb(86, 78, 78);
   height: max-content;
   margin: 5vh auto;
   max-width: 75%;
 }
- 
-#name{
+
+#name {
   margin-top: 5vh;
 }
 input,
@@ -73,12 +71,11 @@ textarea {
 }
 
 h1 {
-  margin:  3vh auto;
+  margin: 3vh auto;
   font-weight: bolder;
 }
 
-
-.skill_container{
+.skill_container {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -88,27 +85,25 @@ h1 {
   max-width: 75%;
   margin: 0 auto;
 }
-.skill_container h1{
+.skill_container h1 {
   font-size: 5rem;
   font-weight: bolder;
   color: #fff;
   margin-bottom: 1rem;
 }
-.item{
+.item {
   margin: 2vh 2vh;
 }
-.item img{
+.item img {
   height: 12vh;
   width: 10vw;
   background-color: black;
 }
-.item h4{
+.item h4 {
   color: white;
   font-weight: bolder;
   font-size: larger;
 }
- 
- 
 
 .edu_container {
   display: flex;
@@ -116,7 +111,9 @@ h1 {
   align-items: center;
   flex-direction: column;
   margin: 0 auto;
-  max-width:95%;
+  max-width: 95%;
+  position: relative;
+  z-index: -200;
 }
 .Education h4 {
   font-weight: bolder;
@@ -129,7 +126,7 @@ h1 {
   justify-content: center;
   align-items: center;
 }
-.margin_on_short{
+.margin_on_short {
   margin: 2vh;
   /* font-weight:100; */
 }
@@ -195,14 +192,14 @@ h1 {
   width: 30vw;
   background-color: rgb(34, 35, 35);
   margin: auto 2vh;
-  color:white;
+  color: white;
 }
 .solo {
   height: 30vh;
   width: 30vw;
   background-color: rgb(33, 31, 31);
   margin: auto 2vh;
-  color:white;
+  color: white;
 }
 
 .mar {
@@ -230,7 +227,7 @@ h1 {
   width: 90vw;
   margin: 0 auto;
 }
-.heading{
+.heading {
   margin-top: 5vh;
 }
 #para {
@@ -261,30 +258,28 @@ h1 {
   flex-wrap: wrap;
 }
 
-.clr1{
+.clr1 {
   background-color: rgb(193, 200, 218);
 }
-.clr4{
+.clr4 {
   background-color: rgb(193, 200, 218);
 }
-.clr_group{
-background-color: rgb(235, 237, 239,0.8);
+.clr_group {
+  background-color: rgb(235, 237, 239, 0.8);
 }
 
-.back_btn{
-   margin: 2vh 3vh;
-   height: 5vh;
-   width: 10vh;
+.back_btn {
+  margin: 2vh 3vh;
+  height: 5vh;
+  width: 10vh;
 }
-.first{
+.first {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   border-radius: 10px;
- 
 }
 
-.projects{
+.projects {
   margin-bottom: 7vh;
 }
- 
