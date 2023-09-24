@@ -62,7 +62,7 @@ function myFunction() {
   get_all.style.display = "block"
 }
 
-setInterval(myFunction, 3000);
+setInterval(myFunction, 0);
 
 
 // Cerificate Section click
