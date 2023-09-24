@@ -45,7 +45,6 @@ typewriter1();
  
 
 
-
 // Styling The Navabar Link By Javasrcipt
 
 var get_nav = document.getElementsByClassName(".navbar-nav")
@@ -64,3 +63,6 @@ function myFunction() {
 }
 
 setInterval(myFunction, 3000);
+
+
+// Cerificate Section click

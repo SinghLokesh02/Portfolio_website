@@ -29,393 +29,416 @@
     <script src="srcipt.js" defer></script>
     <script src="https://code.jquery.com/jquery-3.7.0.min.js" defer></script>
     <style>
-       
-      .nav-link{
+      .nav-link {
         font-weight: bold;
         font-size: large;
         margin: 0 1vh;
         color: white;
       }
-      .container-fluid{
+      .container-fluid {
         padding: 0;
       }
-      
-      /* Style for Preloader of the website */
-.preloader{
-    height: 100vh;
-    width: 100%;
-    background-color: #fff;
-    background-image: url("img/pre.gif");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 35%;
-    display: block;
-}
 
-/* Scrollspy CSS */
-.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
-    color: #fff;
-    background-color: black;
-    border-radius: 15px;
-}
- 
+      /* Style for Preloader of the website */
+      .preloader {
+        height: 100vh;
+        width: 100%;
+        background-color: #fff;
+        background-image: url("img/pre.gif");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 35%;
+        display: block;
+      }
+
+      /* Scrollspy CSS */
+      .navbar-dark .navbar-nav .active > .nav-link,
+      .navbar-dark .navbar-nav .nav-link.active,
+      .navbar-dark .navbar-nav .nav-link.show,
+      .navbar-dark .navbar-nav .show > .nav-link {
+        color: #fff;
+        background-color: black;
+        border-radius: 15px;
+      }
     </style>
   </head>
-  <body data-spy = "scroll" data-target="#myNavbar" data-offset="55">
-
+  <body data-spy="scroll" data-target="#myNavbar" data-offset="55">
     <!-- Preloader for the website -->
     <div class="preloader"></div>
-   
-    
+
     <div class="container-fluid gif-effect">
-    <div class="container-fluid position-fixed">
-     
+      <div class="container-fluid position-fixed nav1">
+        <!-- Navbar Of the website -->
+        <nav id="myNavbar" class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <!-- <a class="navbar-brand" href="index.html">Portfolio</a> -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-      <!-- Navbar Of the website -->
-    <nav id= "myNavbar" class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <!-- <a class="navbar-brand" href="index.html">Portfolio</a> -->
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-        <ul class="navbar-nav ">
-          <li class="nav-item">
-            <a class="nav-link" href="#home"
-              >Home <span class="sr-only">(current)</span></a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#skills">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#projects">projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#education">Education</a>
-          </li>
-          <!-- <li class="nav-item">
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#home"
+                  >Home <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#education">Education</a>
+              </li>
+              <!-- <li class="nav-item">
             <a class="nav-link" href="#Experiences">Experience</a>
           </li> -->
-          <li class="nav-item">
-            <a class="nav-link" href="#Certification">Certification</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#Contact">Contact</a>
-          </li>
-        </ul>
+              <li class="nav-item">
+                <a class="nav-link" href="#Certification">Certification</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
       </div>
-    </nav>
-  </div>
-    <!-- Home Section -->
-    <section id="home">
-      <div class="home">
-        <div class="coding">
-          <img src="coder.gif" alt="" class="Coder_img" />
-        </div>
-        <div class="getCV">
-          <a href="Resume.pdf" class="btn btn-primary">Download CV</a>
-        </div>
-      </div>
-    </section>
 
-    <!-- About Section -->
-    <section id="about">
-      <h1 class="text-center">About <span>Me</span></h1>
-      <div class="about_container">
-        <div class="bio">
-          <h1 class="margin_on_short">Hi There 👋</h1>
-          <h2 class="margin_on_short">I'm <span id="red">Lokesh Singh</span> </h2>
-          <h2 class="margin_on_short">Software/Web Developer well versed in</h2>
-          <h2 class="margin_on_short">
-            <strong>C, C++, DSA, <span id="skil">HTML, CSS and Javascript</span></strong>
-          </h2>
-
-          <div class="logo">
-            <a href="https://www.instagram.com/lokeshsingh7695/" target="_blank"
-              ><img src="img/insta.png"
-            /></a>
-            <a
-              href="https://www.linkedin.com/in/lokesh-singh-993a0a233/"
-              target="_blank"
-              ><img src="img/linked.gif"
-            /></a>
-            <a href="https://github.com/SinghLokesh02"
-              ><img src="img/gith.png"
-            /></a>
-            <a href="mailto:lokeshsingh7695@gmail.com" target="_blank"
-              ><img src="img/gmail.webp"
-            /></a>
-            <a
-              href="https://www.linkedin.com/in/lokesh-singh-7b1b3a1b2/"
-              target="_blank"
-              ><img src="img/fb.png"
-            /></a>
+      <!-- Home Section -->
+      <section id="home">
+        <div class="home">
+          <div class="coding">
+            <img src="coder.gif" alt="" class="Coder_img" />
+          </div>
+          <div class="getCV">
+            <a href="Resume.pdf" class="btn btn-primary">Download CV</a>
           </div>
         </div>
-        <div class="image">
-          <img class="image1" src="img/img.png" alt="" />
-        </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- Skills Section -->
-    <section id="skills">
-      <h1 class="text-center">Skills & Abilities</h1>
-      <div class="skill_container">
-        <div class="item">
-          <img src="img/dsa.png" />
-          <h4 class="text-center">DSA</h4>
-        </div>
-        <div class="item">
-          <img src="img/c++.png" />
-          <h4 class="text-center">C++</h4>
-        </div>
-        <div class="item">
-          <img src="img/c.png" />
-          <h4 class="text-center">C</h4>
-        </div>
-        <div class="item">
-          <img src="img/html.png" />
-          <h4 class="text-center">HTML</h4>
-        </div>
-        <div class="item">
-          <img src="img/do.png" />
-          <h4 class="text-center">CSS</h4>
-        </div>
-        <div class="item">
-          <img src="img/js.png" />
-          <h4 class="text-center">JavaScript</h4>
-        </div>
-        <div class="item">
-          <img src="img/php.png" />
-          <h4 class="text-center">PHP</h4>
-        </div>
-        <div class="item">
-          <img src="img/sql.png" />
-          <h4 class="text-center">MySQl</h4>
-        </div>
-        <div class="item">
-          <img src="img/java.png" />
-          <h4 class="text-center">Java</h4>
-        </div>
-        <div class="item">
-          <img src="img/python.png" />
-          <h4 class="text-center">python</h4>
-        </div>
-        <div class="item">
-          <img src="img/bootstrap.png" />
-          <h4 class="text-center">Bootstrap</h4>
-        </div>
-        <div class="item">
-          <img src="img/node.png" />
-          <h4 class="text-center">Nodejs</h4>
-        </div>
-        <div class="item">
-          <img src="img/git.png" />
-          <h4 class="text-center">Git</h4>
-        </div>
-        <div class="item">
-          <img src="img/github.png" />
-          <h4 class="text-center">Github</h4>
-        </div>
-        <div class="item">
-          <img src="img/go.png" />
-          <h4 class="text-center">golang</h4>
-        </div>
-        <div class="item">
-          <img src="img/tail.png" />
-          <h4 class="text-center">Tailwind</h4>
-        </div>
-
-        <div class="item">
-          <img src="img/leadership.jpg" />
-          <h4 class="text-center">Leadership</h4>
-        </div>
-        <div class="item">
-          <img src="img/team.jpg" />
-          <h4 class="text-center">Teamwork</h4>
-        </div>
-      </div>
-    </section>
-
-    <!-- Project Section -->
-    <section id="projects">
-      <h1 class="text-center">Projects</h1>
-      <div class="project_contain">
-        <div class="group">
-          <h2 class="text-center mar">Group Projects</h2>
-          <div class="btn-center">
-            <a href="group.html" class="btn btn-primary"> View Project</a>
-          </div>
-        </div>
-        <div class="solo">
-          <h2 class="text-center mar">Solo Project</h2>
-          <div class="btn-center">
-            <a href="solo.html" class="btn btn-primary"> View Project</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- My Education Section -->
-    <section id="education">
-      <div class="edu_container">
-        <h1 class="text-center">My <span>Education</span></h1>
-
-        <div class="col-md-10">
-          <div
-            class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
-          >
-            <div class="col p-4 d-flex flex-column position-static Education">
-              <strong class="d-inline-block mb-2 text-primary">College</strong>
-              <h3 class="mb-0 bold">
-                Bachelor Of Engineering in Computer Science
-              </h3>
-              <strong class="d-inline-block mb-2 text-primary"
-                >Rustam Ji Institute of Technology(RJIT)</strong
+      <!-- About Section -->
+      <section id="about">
+        <h1 class="text-center">About <span>Me</span></h1>
+        <div class="about_container">
+          <div class="bio">
+            <h1 class="margin_on_short">Hi There 👋</h1>
+            <h2 class="margin_on_short">
+              I'm <span id="red">Lokesh Singh</span>
+            </h2>
+            <h2 class="margin_on_short">
+              Software/Web Developer well versed in
+            </h2>
+            <h2 class="margin_on_short">
+              <strong
+                >C, C++, DSA,
+                <span id="skil">HTML, CSS and Javascript</span></strong
               >
-              <h4 class="text-success">2020 - 2024 | Pursuing</h4>
+            </h2>
 
-              <a href="#" class="stretched-link"></a>
+            <div class="logo">
+              <a
+                href="https://www.instagram.com/lokeshsingh7695/"
+                target="_blank"
+                ><img src="img/insta.png"
+              /></a>
+              <a
+                href="https://www.linkedin.com/in/lokesh-singh-993a0a233/"
+                target="_blank"
+                ><img src="img/linked.gif"
+              /></a>
+              <a href="https://github.com/SinghLokesh02"
+                ><img src="img/github.png"
+              /></a>
+              <a href="mailto:lokeshsingh7695@gmail.com" target="_blank"
+                ><img src="img/gmail.webp"
+              /></a>
+              <a
+                href="https://www.linkedin.com/in/lokesh-singh-7b1b3a1b2/"
+                target="_blank"
+                ><img src="img/fb.png"
+              /></a>
             </div>
-            <div class="col-auto d-none d-lg-block">
-              <img src="img/rjot.jpg" height="150vh" width="150vw" />
+          </div>
+          <div class="image">
+            <img class="image1" src="img/img.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills">
+        <h1 class="text-center">Skills & Abilities</h1>
+        <div class="skill_container">
+          <div class="item">
+            <img src="img/dsa.png" />
+            <h4 class="text-center">DSA</h4>
+          </div>
+          <div class="item">
+            <img src="img/c++.png" />
+            <h4 class="text-center">C++</h4>
+          </div>
+          <div class="item">
+            <img src="img/clang.png" />
+            <h4 class="text-center">C</h4>
+          </div>
+          <div class="item">
+            <img src="img/html5.png" height="100px" />
+            <h4 class="text-center">HTML</h4>
+          </div>
+          <div class="item">
+            <img src="img/css.png" />
+            <h4 class="text-center">CSS</h4>
+          </div>
+          <div class="item">
+            <img src="img/js.png" />
+            <h4 class="text-center">JavaScript</h4>
+          </div>
+          <div class="item">
+            <img src="img/php.png" />
+            <h4 class="text-center">PHP</h4>
+          </div>
+          <div class="item">
+            <img src="img/sql.png" />
+            <h4 class="text-center">MySQl</h4>
+          </div>
+          <div class="item">
+            <img src="img/java.png" />
+            <h4 class="text-center">Java</h4>
+          </div>
+          <div class="item">
+            <img src="img/python.png" />
+            <h4 class="text-center">python</h4>
+          </div>
+          <div class="item">
+            <img src="img/bootstrap.png" />
+            <h4 class="text-center">Bootstrap</h4>
+          </div>
+          <div class="item">
+            <img src="img/node.png" />
+            <h4 class="text-center">Nodejs</h4>
+          </div>
+          <div class="item">
+            <img src="img/git.png" />
+            <h4 class="text-center">Git</h4>
+          </div>
+          <div class="item">
+            <img src="img/github.png" />
+            <h4 class="text-center">Github</h4>
+          </div>
+          <div class="item">
+            <img src="img/django.png" />
+            <h4 class="text-center">Django</h4>
+          </div>
+          <div class="item">
+            <img src="img/jq.png" />
+            <h4 class="text-center">JQuery</h4>
+          </div>
+          <div class="item">
+            <img src="img/golang.png" />
+            <h4 class="text-center">golang</h4>
+          </div>
+          <div class="item">
+            <img src="img/tail.jpg" />
+            <h4 class="text-center">Tailwind</h4>
+          </div>
+
+          <div class="item">
+            <img src="img/leadership.jpg" />
+            <h4 class="text-center">Leadership</h4>
+          </div>
+          <div class="item">
+            <img src="img/team.jpg" />
+            <h4 class="text-center">Teamwork</h4>
+          </div>
+        </div>
+      </section>
+
+      <!-- Project Section -->
+      <section id="projects">
+        <h1 class="text-center">Projects</h1>
+        <div class="project_contain">
+          <div class="group">
+            <h2 class="text-center mar">Group Projects</h2>
+            <div class="btn-center">
+              <a href="group.html" class="btn btn-primary"> View Project</a>
+            </div>
+          </div>
+          <div class="solo">
+            <h2 class="text-center mar">Solo Project</h2>
+            <div class="btn-center">
+              <a href="solo.html" class="btn btn-primary"> View Project</a>
             </div>
           </div>
         </div>
+      </section>
 
-        <div class="col-md-10">
-          <div
-            class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
-          >
-            <div class="col p-4 d-flex flex-column position-static Education">
-              <strong class="d-inline-block mb-2 text-primary"
-                >Schooling</strong
-              >
-              <h3 class="mb-0 bold">Intermediate</h3>
-              <strong class="d-inline-block mb-2 text-primary"
-                >BSF Senior Secondary School</strong
-              >
-              <h4 class="text-success">2018 - 2020| Completed</h4>
-              <p></p>
-              <a href="#" class="stretched-link"></a>
+      <!-- My Education Section -->
+      <section id="education">
+        <div class="edu_container">
+          <h1 class="text-center">My <span>Education</span></h1>
+
+          <div class="col-md-10">
+            <div
+              class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+            >
+              <div class="col p-4 d-flex flex-column position-static Education">
+                <strong class="d-inline-block mb-2 text-primary"
+                  >College</strong
+                >
+                <h3 class="mb-0 bold">
+                  Bachelor Of Engineering in Computer Science
+                </h3>
+                <strong class="d-inline-block mb-2 text-primary"
+                  >Rustam Ji Institute of Technology(RJIT)</strong
+                >
+                <h4 class="text-success">2020 - 2024 | Pursuing</h4>
+
+                <a href="#" class="stretched-link"></a>
+              </div>
+              <div class="col-auto d-none d-lg-block">
+                <img src="img/rjot.jpg" height="150vh" width="150vw" />
+              </div>
             </div>
-            <div class="col-auto d-none d-lg-block order-1">
-              <img src="img/school.jpg" height="150vh" width="150vw" />
+          </div>
+
+          <div class="col-md-10">
+            <div
+              class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+            >
+              <div class="col p-4 d-flex flex-column position-static Education">
+                <strong class="d-inline-block mb-2 text-primary"
+                  >Schooling</strong
+                >
+                <h3 class="mb-0 bold">Intermediate</h3>
+                <strong class="d-inline-block mb-2 text-primary"
+                  >BSF Senior Secondary School</strong
+                >
+                <h4 class="text-success">2018 - 2020| Completed</h4>
+                <p></p>
+                <a href="#" class="stretched-link"></a>
+              </div>
+              <div class="col-auto d-none d-lg-block order-1">
+                <img src="img/school.jpg" height="150vh" width="150vw" />
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- Experience Section -->
-    <!-- <section id="Experience">
+      <!-- Experience Section -->
+      <!-- <section id="Experience">
       <div class="experience">
         <h1 class="text-center">Experience</h1>
       </div>
     </section> -->
 
-    <!-- Certifications Section -->
-    <section id="Certification">
-      <h1 class="text-center">My Certifications</h1>
-      <div class="certi_container">
-        <div class="certificate">
-          <img src="img/c1.png" alt="" />
-          <img src="img/c2.png" alt="" />
-          <img src="img/c3.png" alt="" />
-          <img src="img/c4.png" alt="" />
-          <img src="img/c5.png" alt="" />
-          <img src="img/c6.png" alt="" />
-        </div>
-      </div>
-    </section>
-
-    <!-- Contact me Section -->
-    <section id="Contact">
-      <h1 class="text-center">Contact Me</h1>
-      <div class="contact_form">
-        <form action="submit.php" method="post" class="form">
-          <input
-            type="text"
-            id="name"
-            name="name"
-            placeholder="Enter your name"
-          />
-          <input
-            type="text"
-            id="email"
-            name="email"
-            placeholder="Enter your email"
-          />
-          <input
-            type="text"
-            id="phone"
-            name="phone"
-            placeholder="Enter your phone"
-          />
-          <textarea
-            name="desc"
-            id="desc"
-            cols="30"
-            rows="3"
-            placeholder="Enter Your Message"
-          ></textarea>
-          <button type="submit" id="btn" name="submit">Submit</button>
-        </form>
-      </div>
-    </section>
-
-    <!-- Footer of website -->
-    <footer class="site-footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12 col-md-6">
-            <h6>About</h6>
-            <p class="text-justify">
-              This Website
-              <i>My personal fortfolio Website Showcase my ability. And It </i>
-              is an website where I update the data accordingly to my progress.
-            </p>
-          </div>
-
-          <div class="col-xs-6 col-md-3">
-            <h6>Quick Links</h6>
-            <ul class="footer-links">
-              <li><a href="#home">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#skills">Skills</a></li>
-              <li><a href="#education">Education</a></li>
-              <li><a href="#projects">Project</a></li>
-              <li><a href="#Contact">Contact Us</a></li>
-            </ul>
+      <!-- Certifications Section -->
+      <section id="Certification">
+        <h1 class="text-center">My Certifications</h1>
+        <div class="certi_container">
+          <div class="certificate">
+            <img src="img/c1.png" alt="" />
+            <img src="img/c2.png" alt="" />
+            <img src="img/c3.png" alt="" />
+            <img src="img/c4.png" alt="" />
+            <img src="img/c5.png" alt="" />
+            <img src="img/c6.png" alt="" />
           </div>
         </div>
-        <hr />
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 col-sm-6 col-xs-12">
-            <p class="copyright-text">
-              Copyright &copy; 2017 All Rights Reserved by
-              <a href="index.html">potfolio.com</a>.
-            </p>
+      </section>
+
+      <!-- Contact me Section -->
+      <section id="Contact">
+        <h1 class="text-center">Contact Me</h1>
+        <div class="contact_form">
+          <form action="submit.php" method="post" class="form">
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Enter your name"
+            />
+            <input
+              type="text"
+              id="email"
+              name="email"
+              placeholder="Enter your email"
+            />
+            <input
+              type="text"
+              id="phone"
+              name="phone"
+              placeholder="Enter your phone"
+            />
+            <textarea
+              name="desc"
+              id="desc"
+              cols="30"
+              rows="3"
+              placeholder="Enter Your Message"
+            ></textarea>
+            <button type="submit" id="btn" name="submit">Submit</button>
+          </form>
+        </div>
+      </section>
+
+      <!-- Footer of website -->
+      <footer class="site-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-6">
+              <h6>About</h6>
+              <p class="text-justify">
+                This Website
+                <i
+                  >My personal fortfolio Website Showcase my ability. And It
+                </i>
+                is an website where I update the data accordingly to my
+                progress.
+              </p>
+            </div>
+
+            <div class="col-xs-6 col-md-3">
+              <h6>Quick Links</h6>
+              <ul class="footer-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Project</a></li>
+                <li><a href="#Contact">Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+          <hr />
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-sm-6 col-xs-12">
+              <p class="copyright-text">
+                Copyright &copy; 2017 All Rights Reserved by
+                <a href="index.html">potfolio.com</a>.
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-    </footer>
-  </div>
+      </footer>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -436,7 +459,11 @@
     ></script>
 
     <!-- Importing Jquery -->
-    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.js"
+      integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+      crossorigin="anonymous"
+    ></script>
   </body>
   <script src="srcipt.js"></script>
 </html>
