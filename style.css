@@ -90,7 +90,7 @@ h1 {
 
 #moving_hand:last-child {
   position: relative;
-  bottom: 9px;
+  bottom: 20px;
 }
 
 @keyframes move-hand {
