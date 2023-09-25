@@ -1,3 +1,4 @@
+/* ================================= All CSS Selectors ================================ */
 * {
   margin: 0;
   padding: 0;
@@ -5,9 +6,24 @@
   font-family: "Poppins", sans-serif;
   font-family: "Roboto Slab", serif;
 }
-#red {
-  color: red;
+body{
+  overflow-x:hidden ;
+  position: static;
 }
+
+.nav1 {
+  position: absolute;
+  z-index: 200;
+  width: 100vw;
+}
+
+h1 {
+  margin: 3vh auto;
+  font-weight: bolder;
+}
+
+/* ================================ Home Section Styling =============================== */
+
 .home {
   background-image: url("portfolio.gif");
   background-color: red;
@@ -33,13 +49,34 @@
   margin-left: 5vh;
 }
 
+/* ================================= About Section Styling =============================== */
+.image1 {
+  border: 4px solid rgb(11, 13, 13);
+  overflow: hidden;
+  border-radius: 50%;
+  width: 70%;
+  margin-left: 5vh;
+}
+
+.bio {
+  height: 163px;
+  height: 70%;
+  width: 50vw;
+}
+.logo {
+  display: flex;
+  margin: 4vh auto;
+}
+.logo a img {
+  height: 50px;
+  width: 50px;
+}
+
 /* Moving hand */
 .combine {
   display: flex;
 }
 #moving_hand {
-  /* display: inline; */
-  /* align-self: center; */
   animation-name: move-hand;
   animation-duration: 0.2s;
   animation-iteration-count: infinite;
@@ -59,6 +96,151 @@
     transform: rotate(25deg);
   }
 }
+
+/* ================================== Skills Section Styling =============================== */
+.skill_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 90%;
+  margin: 0 auto;
+  column-gap: 5vh;
+}
+.skill_container h1 {
+  font-size: 5rem;
+  font-weight: bolder;
+  color: #fff;
+}
+.item {
+  margin: 2vh 2vh;
+}
+.item img {
+  border-radius: 50%;
+  height: 14vh;
+  width: 8vw;
+}
+
+/* Skill On hover style */
+.item:hover {
+  transform: scale(1.3);
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+
+/* ================================ Education Section Styling =============================== */
+
+.edu_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 95%;
+  position: relative;
+  z-index: -200;
+}
+.Education h4 {
+  font-weight: bolder;
+}
+.bold {
+  font-weight: bolder;
+}
+.about_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.margin_on_short {
+  margin: 2vh;
+}
+
+
+
+/* =============================== Certifications Section Styling ============================= */
+
+
+.certificate {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.certi_container {
+  width: 90vw;
+  background-color: rgb(214, 214, 214);
+  padding: 3vh;
+  margin: 0 auto;
+  max-width: 75%;
+}
+.certi_container img {
+  height: 10%;
+  width: 20%;
+  border: 3px solid black;
+  margin: 1vh 3vh;
+}
+.certi_container img:hover {
+  transform: scale(2.6);
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+
+
+/* ============================== Projects Section Styling =============================== */
+
+
+.project_contain {
+  background-color: rgb(204, 199, 199);
+  height: 50vh;
+  width: 90vw;
+  max-width: 75%;
+  margin: 2vh auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+.group {
+  height: 30vh;
+  width: 30vw;
+  background-color: rgb(34, 35, 35);
+  margin: auto 2vh;
+  color: white;
+}
+.solo {
+  height: 30vh;
+  width: 30vw;
+  background-color: rgb(33, 31, 31);
+  margin: auto 2vh;
+  color: white;
+}
+.btn-center {
+  height: 70%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.group_project1 {
+  background-color: rgb(144, 179, 241);
+  height: 35vh;
+  width: 90vw;
+  margin: 2vh auto;
+}
+.group_project {
+  background-color: rgb(144, 179, 241);
+  height: 30vh;
+  width: 90vw;
+  margin: 0 auto;
+}
+
+
+
+/* =============================== Contact Section Styling ============================== */
+
 
 form {
   display: flex;
@@ -97,6 +279,8 @@ textarea::placeholder {
   color: lime;
 }
 
+
+/* Submit button in Contact */
 #btn {
   border: 2px solid black;
   border-radius: 10px;
@@ -109,230 +293,5 @@ textarea::placeholder {
   margin-bottom: 5vh;
 }
 
-h1 {
-  margin: 3vh auto;
-  font-weight: bolder;
-}
 
-.skill_container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 90%;
-  margin: 0 auto;
-  column-gap: 5vh;
-}
-.skill_container h1 {
-  font-size: 5rem;
-  font-weight: bolder;
-  color: #fff;
-}
-.item {
-  margin: 2vh 2vh;
-}
-.item img {
-  border-radius: 50%;
-  height: 14vh;
-  width: 8vw;
-}
-.item h4 {
-  color: white;
-  font-weight: bolder;
-  font-size: larger;
-}
 
-/* Skill On hover style */
-.item:hover {
-  transform: scale(1.3);
-  transition: all 0.5s ease-in-out;
-  cursor: pointer;
-}
-
-.edu_container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin: 0 auto;
-  max-width: 95%;
-  position: relative;
-  z-index: -200;
-}
-.Education h4 {
-  font-weight: bolder;
-}
-.bold {
-  font-weight: bolder;
-}
-.about_container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.margin_on_short {
-  margin: 2vh;
-  /* font-weight:100; E:\Programming\Complete Web Development\Projects\Porfolio\style.css */
-}
-
-.image1 {
-  border: 4px solid rgb(11, 13, 13);
-  overflow: hidden;
-  border-radius: 50%;
-  width: 70%;
-  margin-left: 5vh;
-}
-
-.bio {
-  height: 163px;
-  height: 70%;
-  width: 50vw;
-}
-.logo {
-  display: flex;
-  margin: 4vh auto;
-}
-.logo a img {
-  height: 50px;
-  width: 50px;
-}
-
-.certificate {
-  margin: auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
-.certi_container {
-  width: 90vw;
-  background-color: rgb(214, 214, 214);
-  padding: 3vh;
-  margin: 0 auto;
-  max-width: 75%;
-}
-.certi_container img {
-  height: 10%;
-  width: 20%;
-  border: 3px solid black;
-  margin: 1vh 3vh;
-}
-.certi_container img:hover {
-  transform: scale(2.6);
-  transition: all 0.5s ease-in-out;
-  cursor: pointer;
-}
-
-.project_contain {
-  background-color: rgb(204, 199, 199);
-  height: 50vh;
-  width: 90vw;
-  max-width: 75%;
-  margin: 2vh auto;
-  display: flex;
-  justify-content: space-evenly;
-}
-.group {
-  height: 30vh;
-  width: 30vw;
-  background-color: rgb(34, 35, 35);
-  margin: auto 2vh;
-  color: white;
-}
-.solo {
-  height: 30vh;
-  width: 30vw;
-  background-color: rgb(33, 31, 31);
-  margin: auto 2vh;
-  color: white;
-}
-
-.mar {
-  margin-top: 5vh;
-  font-weight: bolder;
-}
-
-.btn-center {
-  height: 70%;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.group_project1 {
-  background-color: rgb(144, 179, 241);
-  height: 35vh;
-  width: 90vw;
-  margin: 2vh auto;
-}
-.group_project {
-  background-color: rgb(144, 179, 241);
-  height: 30vh;
-  width: 90vw;
-  margin: 0 auto;
-}
-.heading {
-  margin-top: 5vh;
-}
-#para {
-  height: 100%;
-  width: 70%;
-  font-weight: bold;
-  margin-top: 3vh;
-  margin-left: 3vh;
-}
-.center {
-  margin: 2vh 5vh;
-}
-
-.float {
-  float: right;
-  margin-right: 4vh;
-  height: 15vh;
-  width: 15vw;
-}
-.center {
-  height: 100%;
-  width: 17%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-self: center;
-  margin: 2vh auto;
-  flex-wrap: wrap;
-}
-
-.clr1 {
-  background-color: rgb(193, 200, 218);
-}
-.clr4 {
-  background-color: rgb(193, 200, 218);
-}
-.clr_group {
-  background-color: rgb(235, 237, 239, 0.8);
-}
-
-.back_btn {
-  margin: 2vh 3vh;
-  height: 5vh;
-  width: 10vh;
-}
-.first {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  border-radius: 10px;
-}
-
-.projects {
-  margin-bottom: 7vh;
-}
-
-/* Skills */
-.nav1 {
-  position: absolute;
-  z-index: 200;
-  width: 100vw;
-}
