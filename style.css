@@ -34,24 +34,31 @@
 }
 
 /* Moving hand */
-#moving_hand{
-animation-name: move-hand;
-animation-duration: 1s;
-animation-iteration-count: infinite;
-animation-direction: alternate;
+.combine {
+  display: flex;
+}
+#moving_hand {
+  /* display: inline; */
+  /* align-self: center; */
+  animation-name: move-hand;
+  animation-duration: 0.2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
-@keyframes move-hand{
-  from{
-    background: red;
-    transform: rotate(-60deg);
-  }
-  to{
-    background: lime;
-    transform: rotate(20deg);
-  }
+#moving_hand:last-child {
+  position: relative;
+  bottom: 9px;
 }
 
+@keyframes move-hand {
+  from {
+    transform: rotate(-25deg);
+  }
+  to {
+    transform: rotate(25deg);
+  }
+}
 
 form {
   display: flex;
@@ -81,16 +88,14 @@ textarea {
   font-weight: bold;
 }
 
-input:focus,textarea:focus {
-  border: 3px solid lime; 
+input:focus,
+textarea:focus {
+  border: 3px solid lime;
 }
-input::placeholder,textarea::placeholder{
+input::placeholder,
+textarea::placeholder {
   color: lime;
 }
- 
-
-
-
 
 #btn {
   border: 2px solid black;
@@ -118,7 +123,6 @@ h1 {
   max-width: 90%;
   margin: 0 auto;
   column-gap: 5vh;
-   
 }
 .skill_container h1 {
   font-size: 5rem;
@@ -127,13 +131,11 @@ h1 {
 }
 .item {
   margin: 2vh 2vh;
-  
 }
 .item img {
   border-radius: 50%;
   height: 14vh;
   width: 8vw;
-   
 }
 .item h4 {
   color: white;
@@ -146,7 +148,6 @@ h1 {
   transform: scale(1.3);
   transition: all 0.5s ease-in-out;
   cursor: pointer;
- 
 }
 
 .edu_container {
@@ -221,7 +222,6 @@ h1 {
   transform: scale(2.6);
   transition: all 0.5s ease-in-out;
   cursor: pointer;
-   
 }
 
 .project_contain {
@@ -330,9 +330,8 @@ h1 {
   margin-bottom: 7vh;
 }
 
-
 /* Skills */
-.nav1{
+.nav1 {
   position: absolute;
   z-index: 200;
   width: 100vw;
