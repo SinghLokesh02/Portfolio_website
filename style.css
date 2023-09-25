@@ -3,11 +3,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-  font-family: "Roboto Slab", serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
-body{
-  overflow-x:hidden ;
+body {
+  overflow-x: hidden;
   position: static;
 }
 
@@ -16,7 +15,12 @@ body{
   z-index: 200;
   width: 100vw;
 }
-
+.nav-item {
+  margin: auto 1vh;
+}
+.navbar-nav {
+  margin-right: 5vh;
+}
 h1 {
   margin: 3vh auto;
   font-weight: bolder;
@@ -30,6 +34,7 @@ h1 {
   height: 60vh;
   margin: 0 auto;
 }
+
 
 .Coder_img {
   height: 50vh;
@@ -129,7 +134,6 @@ h1 {
   cursor: pointer;
 }
 
-
 /* ================================ Education Section Styling =============================== */
 
 .edu_container {
@@ -157,10 +161,7 @@ h1 {
   margin: 2vh;
 }
 
-
-
 /* =============================== Certifications Section Styling ============================= */
-
 
 .certificate {
   margin: auto;
@@ -188,10 +189,7 @@ h1 {
   cursor: pointer;
 }
 
-
-
 /* ============================== Projects Section Styling =============================== */
-
 
 .project_contain {
   background-color: rgb(204, 199, 199);
@@ -236,11 +234,14 @@ h1 {
   width: 90vw;
   margin: 0 auto;
 }
-
-
+.font {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: white;
+  margin: 2vh auto;
+}
 
 /* =============================== Contact Section Styling ============================== */
-
 
 form {
   display: flex;
@@ -279,7 +280,6 @@ textarea::placeholder {
   color: lime;
 }
 
-
 /* Submit button in Contact */
 #btn {
   border: 2px solid black;
@@ -292,6 +292,3 @@ textarea::placeholder {
   margin-top: 3vh;
   margin-bottom: 5vh;
 }
-
-
-
