@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!------------------- Google Fonts ---------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Poppins:ital,wght@0,100;0,200;0,400;0,500;1,100;1,200;1,300;1,600&family=Roboto+Slab:wght@100&family=Roboto:ital,wght@0,900;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta
@@ -28,6 +35,8 @@
     <title>My portfolio</title>
     <script src="srcipt.js" defer></script>
     <script src="https://code.jquery.com/jquery-3.7.0.min.js" defer></script>
+
+    <!---------------------------------- Internal CSS ---------------------------------->
     <style>
       .nav-link {
         font-weight: bold;
@@ -62,13 +71,18 @@
       }
     </style>
   </head>
+
+  <!----------------------------------- Body Starts ----------------------------------->
+
   <body data-spy="scroll" data-target="#myNavbar" data-offset="55">
-    <!-- Preloader for the website -->
+    <!--------------------------- Preloader for the website --------------------------->
     <div class="preloader"></div>
+
+    <!--------------------------- Navbar for the website ----------------------------->
 
     <div class="container-fluid gif-effect">
       <div class="container-fluid position-fixed nav1">
-        <!-- Navbar Of the website -->
+        <!---------------------------- Navbar start ---------------------------->
         <nav id="myNavbar" class="navbar navbar-expand-lg navbar-dark bg-dark">
           <!-- <a class="navbar-brand" href="index.html">Portfolio</a> -->
           <button
@@ -131,17 +145,18 @@
         </div>
       </section>
 
-      <!-- About Section -->
+      <!--------------------------------- About Section --------------------------------->
+
       <section id="about">
         <h1 class="text-center">About <span>Me</span></h1>
         <div class="about_container">
           <div class="bio">
             <div class="combine">
-            <h1 class="margin_on_short">Hi there</h1>
-            <div id="moving_hand"><h1>👋</h1></div>
-          </div>
+              <h1 class="margin_on_short">Hi there</h1>
+              <div id="moving_hand"><h1>👋</h1></div>
+            </div>
             <h2 class="margin_on_short">
-              I'm <span style="color: red;" id="red">Lokesh Singh</span>
+              I'm <span style="color: red" id="red">Lokesh Singh</span>
             </h2>
             <h2 class="margin_on_short">
               Software/Web Developer well versed in
@@ -183,7 +198,8 @@
         </div>
       </section>
 
-      <!-- Skills Section -->
+      <!------------------------------------ Skills Section ------------------------------------>
+
       <section id="skills">
         <h1 class="text-center">Skills & Abilities</h1>
         <div class="skill_container">
@@ -251,18 +267,19 @@
         </div>
       </section>
 
-      <!-- Project Section -->
+      <!-------------------------------- Project Section -------------------------------->
+
       <section id="projects">
         <h1 class="text-center">Projects</h1>
         <div class="project_contain">
           <div class="group">
-            <h2 class="text-center mar">Group Projects</h2>
+            <h2 class="text-center font">Group Projects</h2>
             <div class="btn-center">
               <a href="group.html" class="btn btn-primary"> View Project</a>
             </div>
           </div>
           <div class="solo">
-            <h2 class="text-center mar">Solo Project</h2>
+            <h2 class="text-center font">Solo Projects</h2>
             <div class="btn-center">
               <a href="solo.html" class="btn btn-primary"> View Project</a>
             </div>
@@ -270,7 +287,8 @@
         </div>
       </section>
 
-      <!-- My Education Section -->
+      <!-------------------------------- My Education Section -------------------------------->
+
       <section id="education">
         <div class="edu_container">
           <h1 class="text-center">My <span>Education</span></h1>
@@ -323,14 +341,16 @@
         </div>
       </section>
 
-      <!-- Experience Section -->
+      <!------------------------------ Experience Section -------------------------->
+
       <!-- <section id="Experience">
       <div class="experience">
         <h1 class="text-center">Experience</h1>
       </div>
     </section> -->
 
-      <!-- Certifications Section -->
+      <!------------------------------- Certifications Section ------------------------>
+
       <section id="Certification">
         <h1 class="text-center">My Certifications</h1>
         <div class="certi_container">
@@ -345,7 +365,8 @@
         </div>
       </section>
 
-      <!-- Contact me Section -->
+      <!------------------------------ Contact me Section ------------------------------>
+
       <section id="Contact">
         <h1 class="text-center">Contact Me</h1>
         <div class="contact_form">
@@ -380,7 +401,8 @@
         </div>
       </section>
 
-      <!-- Footer of website -->
+      <!---------------------------- Footer of website -------------------------------------->
+
       <footer class="site-footer">
         <div class="container">
           <div class="row">
@@ -423,8 +445,8 @@
       </footer>
     </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!--  Bootstrap JS -->
+
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -440,7 +462,6 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
-
     <!-- Importing Jquery -->
     <script
       src="https://code.jquery.com/jquery-3.7.0.js"
