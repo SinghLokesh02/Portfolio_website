@@ -109,7 +109,7 @@ h1 {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 90%;
+  max-width: 80%;
   margin: 0 auto;
   column-gap: 5vh;
 }
@@ -123,8 +123,8 @@ h1 {
 }
 .item img {
   border-radius: 50%;
-  height: 14vh;
-  width: 8vw;
+  height: 10vh;
+  width: 5vw;
 }
 
 /* Skill On hover style */
