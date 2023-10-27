@@ -122,7 +122,7 @@ h1 {
   margin: 2vh 2vh;
 }
 .item img {
-  border-radius: 50%;
+  border-radius: 20%;
   height: 10vh;
   width: 5vw;
 }
@@ -133,6 +133,7 @@ h1 {
   transition: all 0.5s ease-in-out;
   cursor: pointer;
 }
+
 
 /* ================================ Education Section Styling =============================== */
 
