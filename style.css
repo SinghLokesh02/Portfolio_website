@@ -166,10 +166,7 @@ h1 {
 
 .certificate {
   margin: auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+ 
 }
 .certi_container {
   width: 90vw;
@@ -178,14 +175,14 @@ h1 {
   margin: 5vh auto;
   max-width: 75%;
 }
-.certi_container img {
+.certi_container a>img {
   height: 10%;
   width: 20%;
   border: 3px solid black;
   margin: 1vh 3vh;
 }
 .certi_container img:hover {
-  transform: scale(2.6);
+  transform: scale(1.1);
   transition: all 0.5s ease-in-out;
   cursor: pointer;
 }
