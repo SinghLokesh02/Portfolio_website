@@ -166,7 +166,6 @@ h1 {
 
 .certificate {
   margin: auto;
- 
 }
 .certi_container {
   width: 90vw;
@@ -174,6 +173,9 @@ h1 {
   padding: 3vh;
   margin: 5vh auto;
   max-width: 75%;
+}
+.certificate a{
+  margin: 0 5vh;
 }
 .certi_container a>img {
   height: 10%;
