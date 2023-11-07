@@ -35,7 +35,6 @@ h1 {
   margin: 0 auto;
 }
 
-
 .Coder_img {
   height: 50vh;
   width: 40vw;
@@ -78,10 +77,9 @@ h1 {
   height: 50px;
   width: 50px;
 }
-.image{
+.image {
   display: flex;
   justify-content: center;
-
 }
 
 /* Moving hand */
@@ -141,7 +139,6 @@ h1 {
   cursor: pointer;
 }
 
-
 /* ================================ Education Section Styling =============================== */
 
 .edu_container {
@@ -181,10 +178,10 @@ h1 {
   margin: 5vh auto;
   max-width: 75%;
 }
-.certificate a{
+.certificate a {
   margin: 0 5vh;
 }
-.certi_container a>img {
+.certi_container a > img {
   height: 10%;
   width: 20%;
   border: 3px solid black;
@@ -214,6 +211,15 @@ h1 {
   margin: auto 2vh;
   color: white;
 }
+
+#para {
+  margin-left: 5vh;
+}
+.solo_project {
+  background: red;
+  margin: 5vh 5vh;
+}
+
 .solo {
   height: 30vh;
   width: 30vw;
@@ -228,24 +234,25 @@ h1 {
   justify-content: center;
   align-items: center;
 }
-
-.group_project1 {
-  background-color: rgb(144, 179, 241);
-  height: 35vh;
-  width: 90vw;
-  margin: 2vh auto;
-}
-.group_project {
-  background-color: rgb(144, 179, 241);
-  height: 30vh;
-  width: 90vw;
-  margin: 0 auto;
-}
 .font {
   font-size: 1.5rem;
   font-weight: bolder;
   color: white;
   margin: 2vh auto;
+}
+/* =============================== Solo Project Styling ============================== */
+.card {
+  height: 50vh;
+  width: 25vw !important;
+}
+.col2 {
+  max-width: 20vw;
+}
+
+/* =============================== Group Project Styling ============================== */
+
+.card-group h4 {
+  font-weight: bold;
 }
 
 /* =============================== Contact Section Styling ============================== */
