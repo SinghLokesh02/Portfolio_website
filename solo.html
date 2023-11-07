@@ -7,7 +7,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-   
+
     <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
@@ -23,134 +23,103 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="footer.css" />
-    <link rel="stylesheet" href="utility.css">
+    <link rel="stylesheet" href="utility.css" />
     <title>Solo Projects</title>
+
+    <style>
+      .back_btn {
+        margin-top: 2vh;
+        margin-left: 2vw;
+        margin-bottom: 2vh;
+      }
+      .container {
+        display: flex;
+        gap: 5vh;
+        margin: 5vh auto;
+      }
+      h4{
+        font-weight: bold;
+      }
+    </style>
   </head>
   <body>
-    <div class="projects">
-    <div class="first">
+    <div class="top-section">
       <a href="index.html" class="btn btn-danger back_btn">Back</a>
       <h1 class="text-center">Solo Projects</h1>
     </div>
 
-    <!-- Project Number 1 -->
-    <div class="group_project clr2">
-      <div class="heading">
-        <h2 class="mar text-center">Body Mass Calculator</h2>
+    <!-- Start of Project -->
+    <div class="container">
+      <div class="card shadow-sm">
+        <img src="img/bmi.png" alt="" width="100%" height="225" />
+        <div class="card-body">
+          <p class="card-text">
+            <h4>BMI Calculator</h4>
+            Our website computes Body Mass Index (BMI) with height and weight input.
+          </p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <a href="https://singhlokesh02.github.io/BMI_Calculator/" target="_blank"><button  type="button" class="btn btn-sm btn-outline-success">
+                View
+              </button></a> 
+            </div>
+          </div>
+        </div>
       </div>
 
-      <div class="image">
-        <img src="img/bmi.png" class="float" />
+      <div class="card shadow-sm">
+        <img src="img/hash.jpg" alt="" width="100%" height="225" />
+        <div class="card-body">
+          <p class="card-text">
+            <h4>Hash value generator</h4>
+            This hash generator ensures file integrity for secure communication.
+          </p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+                <a href="https://singhlokesh02.github.io/hash_value_generator/" target="_blank"><button  type="button" class="btn btn-sm btn-outline-warning">
+                 View
+               </button></a> 
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="para">
-        <p id="para">
-          Our Website Body Mass Index Calculates the Body Mass of any person
-          provided if the height and weight of that person is given.
-          Give your height in cms and weight in kgs. It show your BMI accurately and also tells you that your are overweight,under-weight or fit.
-        </p>
-
-        <p style="margin: 2vh">
-          Technology Used - <strong>HTML, CSS, Javasrcipt, Github</strong>
-        </p>
-<div class="center1">
-        <a
-          href="https://singhlokesh02.github.io/BMI_Calculator/"
-          class="btn btn-primary center center1"
-          >View Project</a
-        >
-      </div>
-      </div>
-    </div>t
-
-    <!-- Project Number 2 -->
-
-    <div class="group_project clr1">
-      <div class="heading">
-        <h2 class="mar text-center">Random Password Generator</h2>
-      </div>
-
-      <div class="image">
-        <img src="img/random.webp" class="float" />
-      </div>
-      <div class="para">
-        <p id="para">
-          Our Website Random Password Generator Generates Random Strong password on every new click. The Random Password  is Combination of lowercase and uppercase alphabets,Digit and Special Characters.
-        </p>
-
-        <p style="margin: 2vh">
-          Technology Used - <strong>HTML, CSS, Javasrcipt, Github</strong>
-        </p>
-        <div class="center1">
-          
-          <a
-          href="https://singhlokesh02.github.io/Random_password/"
-          class="btn btn-primary center"
-          >View Project</a
-          >
+      <div class="card shadow-sm">
+        <img src="img/random.webp" alt="" width="100%" height="225" />
+        <div class="card-body">
+          <p class="card-text">
+            <h4>Random password</h4>
+            Our website generates strong random passwords with a mix of characters on each click.
+          </p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+             <a href="https://singhlokesh02.github.io/Random_password/" target="_blank"><button  type="button" class="btn btn-sm btn-outline-danger">
+              View
+            </button></a> 
+            </div>
+          </div>
         </div>
       </div>
     </div>
 
-    <!-- Project Number 3 -->
-    <div class="group_project clr3">
-      <div class="heading">
-        <h2 class="mar text-center">
-          Ceaser Cipher Webapp
-        </h2>
-      </div>
-
-      <div class="image">
-        <img src="img/ceaser.png" class="float" />
-      </div>
-      <div class="para">
-        <p id="para">
-          This website Encrypts and decrypts the message using ceasar cipher Algorithm of Cryptography. This Algorithm generally used of Encryptions and decryption of messages at early time. In this the Encryption/decryption is done with the help of a key.
-        </p>
-
-        <p style="margin: 2vh">
-          Technology Used -
-          <strong>HTML, CSS, Javasrcipt, Github, Cryptography</strong>
-        </p>
-
-<div class="center1">
-  <a
-  href="https://singhlokesh02.github.io/Ceasar_Cipher_algorithm/"
-  class="btn btn-primary center center1"
-  >View Project</a
-  >
-</div>
-      </div>
+    <!-- Column - 2 -->
+    <div class="container">
+      <div class="card shadow-sm col2">
+        <img src="img/ceaser.png" alt="" width="100%" height="225" />
+        <div class="card-body">
+          <p class="card-text">
+            <h4>Ceaser Cipher Webapp</h4>
+            This website employs the Caesar cipher for message encryption and decryption, a historical encryption method using a key.
+          </p>
+          <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a href=" https://singhlokesh02.github.io/Ceasar_Cipher_algorithm/" target="_blank"><button  type="button" class="btn btn-sm btn-outline-primary">
+                 View
+               </button></a> 
+            </div>
+          </div>
+        </div>
+      </div>   
     </div>
-
-    <!-- Project Number 4 -->
-    <div class="group_project clr4">
-      <div class="heading">
-        <h2 class="mar text-center">Hash Value Generator</h2>
-      </div>
-
-      <div class="image">
-        <img src="img/hash.jpg" class="float" />
-      </div>
-      <div class="para">
-        <p id="para">
-          This website Hash value Generator generates the hash value of aby given file. The method is very useful for the secure Communication. The website checks the integrity and confidentiality of your file while transmitting from one place to another.
-        </p>
-
-        <p style="margin: 2vh">
-          Technology Used -
-          <strong>HTML, CSS, Javasrcipt, Github , Cryptography</strong>
-        </p>
-<div class="center1">
-        <a
-          href="https://singhlokesh02.github.io/hash_value_generator/"
-          class="btn btn-primary center center1"
-          >View Project</a
-        >
-      </div>
-    </div>
-  </div>
-
-    <!-- Home Section -->
 
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -169,3 +138,33 @@
     ></script>
   </body>
 </html>
+
+<!-- 
+
+  1) Random Password Generator
+  Our Website Random Password Generator Generates Random Strong password on every new click. The Random Password  is Combination of lowercase and uppercase alphabets,Digit and Special Characters.
+
+  link -> https://singhlokesh02.github.io/Random_password/
+  img src -> 
+
+  2) Body Mass Calculator
+  Our Website Body Mass Index Calculates the Body Mass of any person provided if the height and weight of that person is given.
+
+  link -> https://singhlokesh02.github.io/BMI_Calculator/
+
+  3) Ceaser Cipher Webapp
+  This website Encrypts and decrypts the message using ceasar cipher Algorithm of Cryptography. This Algorithm generally used of Encryptions and decryption of messages at early time. In this the Encryption/decryption is done with the help of a key.
+
+  link -> https://singhlokesh02.github.io/Ceasar_Cipher_algorithm/
+
+  4) Hash Value Generator
+  This website Hash value Generator generates the hash value of aby given file. The method is very useful for the secure Communication. The website checks the integrity and confidentiality of your file while transmitting from one place to another.
+
+  link -> https://singhlokesh02.github.io/hash_value_generator/
+
+<img src="img/bmi.png" 
+<img src="img/random.webp" 
+<img src="img/ceaser.png" 
+<img src="img/hash.jpg" 
+  
+ -->
