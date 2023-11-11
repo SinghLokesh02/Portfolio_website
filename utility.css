@@ -1,31 +1,46 @@
-@media screen and (max-width: 520px) {
+/* About Section Styling */
+@media screen and (max-width: 820px) {
   #about_container {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     margin-left: 1vh;
   }
+
+  #moving_hand {
+    bottom: 32px !important;; 
+  }
   .margin_on_short {
     margin: 1vh;
-    /* font-weight:100; */
-    font-size: medium;
+    font-size: medium !important;
   }
-  .image {
-    margin-bottom: 10vh;
-    margin-right: 5vh;
+  .combine{
+    height: 6vh !important;
+    width: fit-content !important;
   }
-  .image1 {
-    height: 20vh;
-    width: 100vw;
-    margin-left: 5vh;
+  .bio{
+    margin-left: 3vh !important;
   }
-  .logo a img {
-    height: 30px;
-    width: 30px;
+ #dp{
+  height: 200px !important;
+  width: 150px !important;
+ }
+}
+
+/* group Project Styling  */
+@media screen and (max-width: 820px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 1vh;
   }
 }
+
 
 @media screen and (max-width: 484px) {
   .skill_container {
@@ -176,8 +191,38 @@
 }
 
 
-/* Making the Certification section Responsive */
-@media screen and (max-width: 1125px) {
- 
+/* Making the Solo Project section Responsive */
+@media screen and (max-width: 1000px) {
+  
+  .cards-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow flex items to wrap onto multiple lines */
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 1rem; /* Adjust the gap between cards as needed */
+    margin: 0 1rem; /* Adjust the margin as needed */
+  }
+  .card{
+    width: 100%; /* Make the cards take up the full width of the container */
+    margin: 1rem; /* Adjust the margin as needed */
+  }
+  .col2{
+    height: fit-content;
+    width: 25vw ;
+  }
 }
 
+@media screen and (min-width: 1001px) {
+  
+  .card {
+    height: 55vh;
+    min-width: 25vw !important;
+    max-width: 25vw !important;
+  }
+  .col2-group{
+    height: fit-content;
+    width: 25vw ;
+    margin: 0 5vh;
+  }
+}

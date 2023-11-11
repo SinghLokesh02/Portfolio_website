@@ -59,14 +59,16 @@ h1 {
   overflow: hidden;
   border-radius: 30px;
   border-radius: 50%;
-  width: 35%;
-  margin-left: 5vh;
+  width: 50%;
+  float: right;
+  margin-right: 5vh;
+  margin-bottom: 5vh;
 }
 
 .bio {
   height: 163px;
   height: 70%;
-  width: 50vw;
+  width: 68vw;
   margin-left: 15vh;
 }
 .logo {
@@ -76,10 +78,6 @@ h1 {
 .logo a img {
   height: 50px;
   width: 50px;
-}
-.image {
-  display: flex;
-  justify-content: center;
 }
 
 /* Moving hand */
@@ -242,11 +240,11 @@ h1 {
 }
 /* =============================== Solo Project Styling ============================== */
 .card {
-  height: 50vh;
-  width: 25vw !important;
+  height: fit-content;
+  width: 25vw;
 }
-.col2 {
-  max-width: 20vw;
+.cards-container {
+  width: 100vw;
 }
 
 /* =============================== Group Project Styling ============================== */
