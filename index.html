@@ -135,13 +135,12 @@
 
       <!-- Home Section -->
       <section id="home">
-        <div class="home">
-          <div class="coding">
-            <img src="coder.gif" alt="" class="Coder_img" />
-          </div>
-          <div class="getCV">
-            <a href="pdf/LokeshSingh.pdf" class="btn btn-primary">Download CV</a>
-          </div>
+        <div class="coding">
+          <!-- Empty div to act as a container for the background image -->
+          <div class="background-image"></div>
+          
+          <!-- Your image as an img tag -->
+          <img src="coder.gif" alt="" class="Coder_img" />
         </div>
       </section>
 
@@ -149,8 +148,8 @@
 
       <section id="about">
         <h1 class="text-center">About <span>Me</span></h1>
-        <div class="about_container">
-          <div class="bio">
+        <div class=" row about_container">
+          <div class="col-md-6 bio">
             <div class="combine">
               <h1 class="margin_on_short">Hi there</h1>
               <div id="moving_hand"><h1>👋</h1></div>
@@ -192,7 +191,7 @@
               /></a>
             </div>
           </div>
-          <div class="image" id="image-logo">
+          <div class="col-md-6 image" id="image-logo">
             <img class="image1" src="img/dp1.jpeg" id="dp" />
           </div>
         </div>
@@ -269,23 +268,45 @@
 
       <!-------------------------------- Project Section -------------------------------->
 
-      <section id="projects">
+      <!-- <section id="projects">
         <h1 class="text-center">Projects</h1>
-        <div class="project_contain">
-          <div class="group">
+        <div class="project_contain row">
+          <div class=" col-md-6 group">
             <h2 class="text-center font">Group Projects</h2>
             <div class="btn-center">
               <a href="group.html" class="btn btn-primary"> View Project</a>
             </div>
           </div>
-          <div class="solo">
+          <div class=" col-md-6 solo">
             <h2 class="text-center font">Solo Projects</h2>
             <div class="btn-center">
               <a href="solo.html" class="btn btn-primary"> View Project</a>
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
+      <h1 class="text-center">Projects</h1>
+      <div class="row projectcss ">
+       
+        <div class="col-sm-6 mt-3">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title"> Group Project</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">View More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 mt-3">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title"> Group Project</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">View More</a>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <!-------------------------------- My Education Section -------------------------------->
 
