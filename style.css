@@ -44,14 +44,14 @@ h1 {
 
 /* Style for the img tag */
 .Coder_img {
-  left: 48%;
-  padding: 14px;
-  width: 52%;
+  left: 57%;
+  padding: 62px;
+  width: 45%;
   height: auto;
   display: block;
   position: relative;
   z-index: 1;
-  /* margin-bottom: 13px; */
+  top: 5vh;
 }
 .getCV {
   height: 100%;
@@ -353,4 +353,26 @@ textarea::placeholder {
   text-align: center;
 }
  
+}
+
+
+.resume{
+  position: relative;
+  z-index: 200;
+  bottom: 3vh;
+  left: 3px;
+  margin: 5vh;
+
+}
+
+
+@media (max-width: 767px) {
+  .resume {
+    width: 100% !important;
+    margin: auto -2vh;
+    left: 0px !important;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+  }
 }
